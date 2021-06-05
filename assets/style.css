@@ -10,7 +10,25 @@
   }
 
 /* header style starts */
-
+header {
+  position: sticky;
+  background-color: black;
+  background-size: cover;
+}
+header h1 {
+  font-size: x-large;
+  color: white;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-evenly;
+}
+header nav ul li a {
+  color: white;
+  font-size: large;
+}
 /* hero/jumbotron starts */
 
 /* about me starts */
