@@ -4,20 +4,21 @@
     box-sizing: border-box;
   }
   :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --tertiary-color: ;
+    --primary-color:#FBAEA5 ;
+    --secondary-color: #FCE4D8;
+    --tertiary-color:#AEADAE ;
   }
 
 /* header style starts */
 header {
   position: sticky;
-  background-color: black;
+  background-color:var(--primary-color);
   background-size: cover;
 }
 header h1 {
-  font-size: x-large;
-  color: white;
+  font-size: 75px;
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
 header nav ul {
   display: flex;
@@ -26,12 +27,55 @@ header nav ul {
   justify-content: space-evenly;
 }
 header nav ul li a {
-  color: white;
-  font-size: large;
+  color: var(--secondary-color);
+  font-size: 55px;
+  font-weight: bold;
 }
 /* hero/jumbotron starts */
+.hero {
+background-image: url("../assets/Images/HERO.jpeg");
+background-size: cover;
+background-position: center;
+color: var(--secondary-color);
+font-size: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+padding: 5%;
+border-color: var(--primary-color);
+background-position: 80%;
+}
+
+.hero h2 {
+  padding: 50px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* about me starts */
+.about-me {
+  color: var(--secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-me h3{
+background-color: var(--primary-color);
+font-size: 45px;
+}
+.about-me div {
+flex:1;
+font-size: 25px;
+
+}
+
+.headshot img {
+  width: 200px;
+  height: auto;
+  padding: 25px;
+  border: 5px solid var(--primary-color);
+}
+
 
 /* work starts */
 
