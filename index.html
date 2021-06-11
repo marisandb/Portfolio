@@ -21,9 +21,6 @@
             <li>
                 <a href="#contact-me">Contact Me</a>
             </li>
-            <li>
-                <a href="#resume">Resume</a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -34,12 +31,12 @@
 </section>
 
 <!--about me-->
-<section class="about">
+<section id="about-me" class="about">
     <div class="headshot">
     <img src= "assets/Images/Headshot.jpg" alt="Marisa Bartelt smiling happily"/>
     </div>
     <div class="about-me">
-    <h3>About Me</h3>
+    <h3 class="section-title">About Me</h3>
     <p>
         For five years I worked in animal welfare before I made a career jump and enrolled in a 6 month intensive UW Coding Bootcamp. 
         I now have experience in the following programs: HTML, CSS, JavaScript, API's, Node.js, SQL, NOSQL. I am also equipped with the
@@ -49,43 +46,57 @@
 </section>
 
 <!--work-->
-<sectio class="work">
-    <h4>Work</h4>
-    <nav>
-            <div class="flex-row">
-            <ul class="project-display">
-                <li class="run-buddy">
-                    <a href="https://marisandb.github.io/run-buddy/">
-                        <img src="assets/Images/run-buddy screen.png" alt="run-buddy website screen grab">
-                        </a>
-                </li>
-                <li>
-                    Placeholder
-                </li>
-                <li>
-                    Placeholder
-                </li>
-                <li>
-                    Placeholder
-                </li>
-                <li>
-                    Placeholder
-                </li>
-            </ul>
+<section id="work">
+    <div>
+        <h4 class="section-title">Work</h4>
+    </div>
+        <div class="flex-row">
+            <div class="project-display main-project">
+                <span class="banner">Run-Buddy</span>
+                <a href="https://marisandb.github.io/run-buddy/">
+                    <img src="assets/Images/run-buddy screen.png" alt="run-buddy website showing their sign-up form">
+                </a>
             </div>
-        </nav>
-    
+            <div class="project-display">
+                <span class="banner">Horiseon</span>
+                <a href="https://marisandb.github.io/Horiseon/">
+                    <img src="assets/Images/horiseon screen.png" alt="horiseon website showing a group of people in a meeting">
+                 </a>
+            </div>
+            <div class="project-display placeholder">
+                <span>Robot-Gladiators</span>
+                <a href="https://marisandb.github.io/robot-gladiators/">
+                    <img src="#" alt="">
+                </a>
+            </div>
+            <div class="project-display placeholder">
+                <span>Placeholder</span>
+            </div>
+            <div class="project-display placeholder">
+                <span>Placeholder</span>
+            </div>
+        </div>
 </section>
 
 <!--contact info-->
-<section>
-    <h5>Contact Me</h5>
-    <address>
-        Email: <a href="mailto:marisandb@yahoo.com">marisandb@yahoo.com</a>
-        Phone: 608-323-0979
-        <a href="https://www.linkedin.com/in/marisa-bartelt-28119b20a/">Linkedin</a>
-        <a href="https://github.com/marisandb">Github</a>
-    </address>
+<section id="contact-me">
+    <h5 class="section-title">Contact Me</h5>
+    <div class="contact">
+        <p>You can follow my proffesional pages or contact me directly at the following:</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/marisa-bartelt-28119b20a/">
+                <img src="assets/Images/Linkedin.jpeg"/>
+            </a>
+            
+            <a href="https://github.com/marisandb">
+                <img src="assets/Images/Github Icon.png"/>
+            </a>
+        </div>
+        <address class="address">
+        Phone: <a href="tel:608.323.0979">608-323-0979</a><br>
+        Email: <a href="mailto://marisandb@yahoo.com">marisandb@yahoo.com</a><br>
+        </address>
+    </div>
 </section>
 
 </body>
