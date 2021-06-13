@@ -158,3 +158,46 @@ color: var(--secondary-color);
 }
 
 /* media query starts */
+@media screen and (max-width: 980px) {
+  .headshot img {
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .placeholder {
+    height: 14em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headshot img{
+    margin: 10% 22%;
+    width: 50%;
+  }
+  .about-me{
+    margin: 0%;
+    font-size: 30px;
+  }
+  .placeholder {
+    height: 50%;
+  }
+  .contact {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header h1{
+    text-align: center;
+    text-decoration: none;
+  }
+  .hero h2{
+    text-align: center;
+  }
+}
